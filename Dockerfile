@@ -11,7 +11,7 @@ RUN set -xe \
     supervisor \
     openjdk-8-jre-headless ca-certificates-java libnss3 libnspr4 java-common liblcms2-2 libcups2 libpcsclite1 libxi6 libswt-gtk-4-java\
     gnupg && \
-    curl -o  dbeaver.deb  https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb && \
+    curl -o  dbeaver.deb  https://dbeaver.io/files/6.1.3/dbeaver-ce_6.1.3_amd64.deb && \
     dpkg -i dbeaver.deb && \
     rm -fr dbeaver.deb && \
     rm -rf /var/lib/apt/lists/*
